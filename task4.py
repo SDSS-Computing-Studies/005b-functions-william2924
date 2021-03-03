@@ -7,5 +7,15 @@ Return False if the number is not an integer
 (2 points)
 """
 
-def isInterger(n):
-    return isinstance(n, int)
+def isInterger(number):
+    # input: a float number
+    # return: Ture, if the number is an integer
+    # return: False, if the number is not a integer
+    if number == int(number):
+        return True
+    else:
+        return False
+# This should return False
+x = isInterger(9.5)
+# This should return Ture
+y =(-2)
