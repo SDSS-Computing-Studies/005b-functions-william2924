@@ -8,4 +8,4 @@ Return False if the number is not an integer
 """
 
 def isInterger(n):
-    return isinstance(n,int)
+    return isinstance(n,float)
