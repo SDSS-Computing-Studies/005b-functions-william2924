@@ -7,10 +7,10 @@ Return False if the number is not an integer
 (2 points)
 """
 
-def isInterger( number):
+def isInterger(number):
     # input: a float number
     # return: Ture if the number is an integer
-    # return: False, if the number is not a integer
+    # return: False, if the number is not an integer
     if number == int(number):
         return True
     else:
