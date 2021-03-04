@@ -8,30 +8,15 @@ into another number.
 Example: The factors of 10 are 1, 2, 5, 10
 (2 points)
 """
-
-
-def factor(number):
-    mylist = []
-    number = 37
-    print(" The factors of " + str(number) + " are ", end=" ")
-    for whole_number in range(1,number + 1):
-        if number % whole_number == 0:
-            mylist.append(whole_number)
-            print(mylist)
-
-
-def factors(x):
-   print("The factors of",x,"are:",end=" ")
+def print_factors(x):
+   print("The factors of",x,"are:")
    for i in range(1, x + 1):
        if x % i == 0:
            mylist.append(i)
            print(mylist)
-           
 
 mylist = []
-
 num = 12
-factors(num)
-
+print_factors(num)
 num = 37
-factors(num)
+print_factors(num)
