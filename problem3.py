@@ -8,13 +8,15 @@ into another number.
 Example: The factors of 10 are 1, 2, 5, 10
 (2 points)
 """
-def print_factors(x):
+myList = []
+def str(factors(x)):
    print("The factors of",x,"are:")
    for i in range(1, x + 1):
        if x % i == 0:
            print(i)
 
 num = 12
-count = 37
 print_factors(num)
-print_factors(count)
+myList.insert()
+myList.sort
+print(myList)
